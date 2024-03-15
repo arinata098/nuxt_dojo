@@ -1,9 +1,10 @@
 <template>
     <div>
-        <p>Product details for {{ id }}</p>
+        <!-- <p>Product details for {{ id }}</p>
         <h1 class="font-bold">{{ product.title }}</h1>
         <p> $.{{ product.price }}</p>
-        <p>{{ product.description }}</p>
+        <p>{{ product.description }}</p> -->
+        <ProductDetails :product="product" />
     </div>
 </template>
 
